@@ -1,0 +1,50 @@
+*{
+    margin: 0; /* This sets the margin of all elements to 0 */
+    padding: 0; /* This sets the padding of all elements to 0 */
+    box-sizing: border-box; /* This changes the box model so that the width and height of elements include padding and border */
+}
+
+.external-link{
+    color: rgb(4, 135, 4); /* This sets the text color of elements with the class 'external-link' to green */
+}
+
+.text{
+    font-size: 3rem; /* This sets the font size of elements with the class 'text' to 18 pixels */
+    font-family: Arial, sans-serif; /* This sets the font family of elements with the class 'text' to Arial, with a fallback to sans-serif */
+    font-weight: 700; /* This sets the font weight of elements with the class 'text' to bold */
+    text-transform: uppercase; /* This transforms the text of elements with the class 'text' to uppercase */
+}
+.text-dec{
+    /* text-decoration: underline; This adds an underline to the text of elements with the class 'text-dec' */
+    font-size: 1.5rem; /* This sets the font size of elements with the class 'text-dec' to 16 pixels */  
+    font-family: Georgia, serif; /* This sets the font family of elements with the class 'text-dec' to Georgia, with a fallback to serif */
+    line-height: 1.5; /* This sets the line height of elements with the class 'text-dec' to 1.5 times the font size */
+}
+.background{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(255, 0, 0); /* This sets the background color of elements with the class 'background to red */
+}
+
+.background-img{
+    width: 100%;
+    height: 600px;
+    background-image: url(image.jpg);
+    background-size: cover; /* This scales the background image to cover the entire element */
+    background-position: center; /* This centers the background image within the element */
+    background-repeat: no-repeat; /* This prevents the background image from repeating */
+}
+
+.border{
+    margin: 20px; /* This sets the margin of elements with the class 'border' to 20 pixels */
+    border:1px solid black;
+    height: 200px;
+    width: 300px;
+    padding: 10px; /* This sets the padding of elements with the class 'border' to 10 pixels */
+    border-radius: 10px; /* This adds rounded corners to elements with the class 'border' */
+    background-color: rgb(198, 202, 198); /* This sets the background color of elements with the class 'border' to a light gray */
+    text-align: center; /* This centers the text horizontally within elements with the class 'border' */
+    line-height: 170px; /* This sets the line height of elements with the class 'border' to 200 pixels, which vertically centers the text */
+    border-bottom: 5px solid red; /* This adds    a red border to the top of elements with the class 'border' */
+    border-left: 5px solid green; /* This adds a green border to the left of elements with the class 'border' */
+}
