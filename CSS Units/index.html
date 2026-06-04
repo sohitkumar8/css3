@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CSS Units(px, em, rem, %, vw, vh)</h1>
+
+    <div class="parent"> <!-- px(border, small, fixed, spacing) main use hota hai. 
+        *Exact size milta hain-->
+        <div class="child"> <!--%(responsive width, responsive layout) main use hota hain.
+            * % parent element ke size par depend karta hain.
+            * Agar parent element ki width 300px hain to % value 50% hoga to child element ki width 150px hoga.-->
+            <p>This is a child element.</p>
+        </div>
+    </div>
+
+    <div class="rem">
+        rem(root em) main use hota hain. <br>
+        rem hamesha root element (html) ke font size par depend karta hain. <br>
+        Agar root element ki font size 16px hain to rem value 1rem hoga to element ki font size 16px hoga. <br>
+        Agar root element ki font size 16px hain to rem value 2rem hoga to element ki font size 32px hoga.
+    </div>
+
+    <div class="viewport">
+        <h1>Modern best practices</h1>
+        * Font size ke liye rem use karo. <br>
+        * Layout ke liye % use karo. <br>
+        * Spacing ke liye px use karo. <br>
+        * Responsive design ke liye vw aur vh use karo. <br>
+        * Avoid using em for font size, use rem instead for better consistency. <br>
+    </div>
+    
+</body>
+</html>
